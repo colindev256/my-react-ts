@@ -28,8 +28,44 @@ h1, h2 {
   font-weight: lighter;
 }
 
-.App-intro {
-  font-size: large;
+
+.App-buttons {
+  margin-top: 15px;
+}
+
+.App-buttons .button {
+  margin: 20px 40px;
+}
+
+.App-dropdown {
+  width: 50%;
+  position: relative;
+  top: 30px;
+}
+
+.App-jockeys {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  top: 13px;
+  left: 200px;
+}
+
+.App-field img {
+  display: flex;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: relative;
+  right: 90%;
+}
+
+.App-field progress {
+  width: 90%;
+  position: relative;
+  left: 80px;
+  bottom: 40px;
+  float: left;
 }
 
 @keyframes App-logo-spin {
